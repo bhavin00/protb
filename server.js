@@ -11,6 +11,6 @@ var app = express();
 var passport = passport();
 
 //Listening on port 3002
-app.listen( process.env.PORT || 3002);
+app.listen( process.env.PORT);
 console.log('Server started on http://localhost:3015');
 module.exports = app;
